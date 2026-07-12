@@ -78,7 +78,7 @@ def _upload_transformed_data(bucket_name,destination,**kwargs):
 
 
 default_args = {
-    "Owner": "Siddharth",
+    "owner": "Siddharth",
     "depends_on_past": False
 }
 
