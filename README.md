@@ -10,6 +10,8 @@ An end-to-end ELT data pipeline built with **Apache Airflow** that ingests live 
 ```
 CoinGecko API → GCS (Raw Zone) → Transform (Pandas) → GCS (Transformed Zone) → BigQuery
 ```
+![Uploading architecture_gcp_style.svg…]()
+
 
 ## Pipeline Overview
 
